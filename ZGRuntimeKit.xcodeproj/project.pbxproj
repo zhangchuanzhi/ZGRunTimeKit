@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		234DF4A921251DA800D3D61B /* UIViewController+ZGUMStatisticsTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 234DF4A821251DA800D3D61B /* UIViewController+ZGUMStatisticsTool.m */; };
 		237018DC212427FD003641AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 237018DB212427FD003641AA /* AppDelegate.m */; };
 		237018DF212427FD003641AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 237018DE212427FD003641AA /* ViewController.m */; };
 		237018E2212427FD003641AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237018E0212427FD003641AA /* Main.storyboard */; };
 		237018E4212427FF003641AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 237018E3212427FF003641AA /* Assets.xcassets */; };
 		237018E7212427FF003641AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237018E5212427FF003641AA /* LaunchScreen.storyboard */; };
 		237018EA212427FF003641AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 237018E9212427FF003641AA /* main.m */; };
+		237018F3212428DB003641AA /* ZGRunTimeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 237018F2212428DB003641AA /* ZGRunTimeKit.m */; };
+		D668B4945119445E87315865 /* libPods-ZGRuntimeKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B799B45792FECA434A613B9E /* libPods-ZGRuntimeKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		234DF4A721251DA800D3D61B /* UIViewController+ZGUMStatisticsTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZGUMStatisticsTool.h"; sourceTree = "<group>"; };
+		234DF4A821251DA800D3D61B /* UIViewController+ZGUMStatisticsTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZGUMStatisticsTool.m"; sourceTree = "<group>"; };
 		237018D7212427FD003641AA /* ZGRuntimeKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZGRuntimeKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		237018DA212427FD003641AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		237018DB212427FD003641AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +31,11 @@
 		237018E6212427FF003641AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		237018E8212427FF003641AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		237018E9212427FF003641AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		237018F1212428DB003641AA /* ZGRunTimeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGRunTimeKit.h; sourceTree = "<group>"; };
+		237018F2212428DB003641AA /* ZGRunTimeKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGRunTimeKit.m; sourceTree = "<group>"; };
+		3E79BD730AA05B24A9928A52 /* Pods-ZGRuntimeKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZGRuntimeKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZGRuntimeKit/Pods-ZGRuntimeKit.debug.xcconfig"; sourceTree = "<group>"; };
+		9903C3132F4A6CAC64B745E3 /* Pods-ZGRuntimeKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZGRuntimeKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZGRuntimeKit/Pods-ZGRuntimeKit.release.xcconfig"; sourceTree = "<group>"; };
+		B799B45792FECA434A613B9E /* libPods-ZGRuntimeKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZGRuntimeKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D668B4945119445E87315865 /* libPods-ZGRuntimeKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,8 @@
 			children = (
 				237018D9212427FD003641AA /* ZGRuntimeKit */,
 				237018D8212427FD003641AA /* Products */,
+				98ECA1DC12871D13A45F5E24 /* Pods */,
+				E52E2B54419D4B09A72358F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +71,7 @@
 		237018D9212427FD003641AA /* ZGRuntimeKit */ = {
 			isa = PBXGroup;
 			children = (
+				237018F021242832003641AA /* ZGRunTimeKit */,
 				237018DA212427FD003641AA /* AppDelegate.h */,
 				237018DB212427FD003641AA /* AppDelegate.m */,
 				237018DD212427FD003641AA /* ViewController.h */,
@@ -71,6 +85,34 @@
 			path = ZGRuntimeKit;
 			sourceTree = "<group>";
 		};
+		237018F021242832003641AA /* ZGRunTimeKit */ = {
+			isa = PBXGroup;
+			children = (
+				237018F1212428DB003641AA /* ZGRunTimeKit.h */,
+				237018F2212428DB003641AA /* ZGRunTimeKit.m */,
+				234DF4A721251DA800D3D61B /* UIViewController+ZGUMStatisticsTool.h */,
+				234DF4A821251DA800D3D61B /* UIViewController+ZGUMStatisticsTool.m */,
+			);
+			path = ZGRunTimeKit;
+			sourceTree = "<group>";
+		};
+		98ECA1DC12871D13A45F5E24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E79BD730AA05B24A9928A52 /* Pods-ZGRuntimeKit.debug.xcconfig */,
+				9903C3132F4A6CAC64B745E3 /* Pods-ZGRuntimeKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E52E2B54419D4B09A72358F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B799B45792FECA434A613B9E /* libPods-ZGRuntimeKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +120,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 237018ED212427FF003641AA /* Build configuration list for PBXNativeTarget "ZGRuntimeKit" */;
 			buildPhases = (
+				A70152D86733B2340E34CEB7 /* [CP] Check Pods Manifest.lock */,
 				237018D3212427FD003641AA /* Sources */,
 				237018D4212427FD003641AA /* Frameworks */,
 				237018D5212427FD003641AA /* Resources */,
@@ -136,13 +179,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A70152D86733B2340E34CEB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZGRuntimeKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		237018D3212427FD003641AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				234DF4A921251DA800D3D61B /* UIViewController+ZGUMStatisticsTool.m in Sources */,
 				237018DF212427FD003641AA /* ViewController.m in Sources */,
 				237018EA212427FF003641AA /* main.m in Sources */,
+				237018F3212428DB003641AA /* ZGRunTimeKit.m in Sources */,
 				237018DC212427FD003641AA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +347,7 @@
 		};
 		237018EE212427FF003641AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E79BD730AA05B24A9928A52 /* Pods-ZGRuntimeKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +364,7 @@
 		};
 		237018EF212427FF003641AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9903C3132F4A6CAC64B745E3 /* Pods-ZGRuntimeKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,16 @@
+PODS:
+  - UMengAnalytics-NO-IDFA (4.2.5)
+
+DEPENDENCIES:
+  - UMengAnalytics-NO-IDFA (~> 4.2.5)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - UMengAnalytics-NO-IDFA
+
+SPEC CHECKSUMS:
+  UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
+
+PODFILE CHECKSUM: cc947c18e97ffb02780ba71b973a604a3197ba60
+
+COCOAPODS: 1.5.3
